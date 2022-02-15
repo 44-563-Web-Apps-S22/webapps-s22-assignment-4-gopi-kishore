@@ -44,8 +44,11 @@ td, th{
     padding: 25px 15px;
     margin: 15px 15px;
 }
+tr:nth-child(even){
+    background-color: rgb(188, 219, 77);
+    }
 tr:nth-child(odd){
-background-color: lightgray;
+background-color: rgb(212, 71, 71);
 }
 ul {
     list-style-type: none;
